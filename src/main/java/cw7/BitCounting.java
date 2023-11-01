@@ -1,4 +1,4 @@
-package cw5;
+package cw7;
 
 public class BitCounting {
     public static void main(String[] args) {
