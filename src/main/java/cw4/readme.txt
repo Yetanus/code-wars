@@ -1,10 +1,8 @@
-Your team is writing a fancy new text editor and you've been tasked with implementing the line numbering.
+Complete the solution so that it splits the string into pairs of two characters.
+If the string contains an odd number of characters then it should replace the missing
+second character of the final pair with an underscore ('_').
 
-Write a function which takes a list of strings and returns each line prepended by the correct number.
+Examples:
 
-The numbering starts at 1. The format is n: string. Notice the colon and space in between.
-
-Examples: (Input --> Output)
-
-[] --> []
-["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
+* 'abc' =>  ['ab', 'c_']
+* 'abcdef' => ['ab', 'cd', 'ef']

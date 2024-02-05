@@ -1,4 +1,4 @@
-package cw5;
+package cw7;
 
 import org.junit.Test;
 import org.junit.Before;
